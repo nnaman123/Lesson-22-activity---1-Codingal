@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Arrays</title>
+    </head>
+    <body>
+    <h1>Javascript Arrays</h1>
+    <h2>Join() And Pop()</h2>
+    <p>Join() method joins all elements of an array into a string.</p>
+    <p>Pop() method removes the last element from an array and returns that element.</p>
+
+
+    <p id="MyJoin"></p>
+    <p id="MyPop"></p>
+    <p id="my2pop"></p>
+    <script>
+     var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+     document.getElementById("MyJoin").innerHTML = fruits.join(" * ");
+     document.getElementById("MyPop").innerHTML = fruits.pop();
+     document.getElementById("my2pop").innerHTML = fruits
+    </script>
+    </body>
+</html>
